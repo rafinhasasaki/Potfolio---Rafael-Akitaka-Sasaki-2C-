@@ -1,1 +1,15 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: red solid 3px;
+}
+
+img{
+    border-radius: 120px;
+    width: 100px;
+}
+
 
