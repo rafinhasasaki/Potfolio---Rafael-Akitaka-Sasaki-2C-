@@ -1,11 +1,20 @@
-    body{
+html{
     background-color: white;
+    padding: 5rem;
+}
+
+body{
+    background-color: azure;
     display: block;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    border: black solid 5px;
-    text-align: center;}
+    max-width: 150vh;
+    height: auto;
+    border: blue solid 10px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 3rem;
+}
 
 img{
     border-radius: 200px;
@@ -15,12 +24,27 @@ img{
 
 .perfil{
     font-size: 28px;
-    color: brown;
+    color: black;
     font-weight: bold;
 }
 
 h1{
     font-size: 36px;
 }
+.desc{
+    color: darkgray;
+}
 
+a{
+    background-color: darkgray;
+    color: black;
+    padding: 5px 1rem;
+    border-radius: 10px;
+    direction: none;
+    margin: 1rem;
+}
 
+h2{
+    text-align: left;
+    padding-top: 3rem;
+}
